@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+    color:#fff;
+}
+
+body {
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+}
+#imgLogo{
+    position: relative;
+    left:9rem;
+    top:-2rem;
+    width:12rem;
+    height:12rem;
+    background-size: cover;
+}
+header >ul {
+    display:flex;
+    gap:8rem;
+    list-style: none;
+    justify-content: center;
+}
+ul > li {
+    color:#fffdfd;
+    font-size:1.5rem;
+    margin-top: -9rem;
+}
+#titulo{
+
+}
+
+#imgFoto {
+    display: block;
+    margin: 100px auto;
+    width: 600px;
+    height: 400px;
+    border-radius:2rem;
+    box-shadow: 0 0 2rem rgb(255, 255, 255);
+}
